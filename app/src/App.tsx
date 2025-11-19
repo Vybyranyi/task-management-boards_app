@@ -1,11 +1,14 @@
-import './App.css'
+import { useAppSelector } from './store/hooks';
+import Home from './components/Home';
+import Board from './components/Board';
+import './App.css';
 
-function App() {
+export default function App() {
+  const currentBoard = useAppSelector((state) => state.board.currentBoard);
 
   return (
-    <>
-    </>
-  )
+    <div className="app">
+      {currentBoard ? <Board /> : <Home />}
+    </div>
+  );
 }
-
-export default App

@@ -1,0 +1,70 @@
+.column {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 300px;
+  min-height: 400px;
+}
+
+.column-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #999;
+}
+
+.column-title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.column-count {
+  background-color: #ddd;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.column-content {
+  min-height: 300px;
+}
+
+.add-card-form {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.form-actions {
+  display: flex;
+  gap: 5px;
+}
+
+.btn-add-card {
+  width: 100%;
+  padding: 8px;
+  background: white;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  text-align: left;
+}
+
+.btn-add-card:hover {
+  background-color: #f9f9f9;
+}
+
+.btn-add {
+  padding: 5px 10px;
+  background-color: #0079bf;
+  color: white;
+  border: 1px solid #0079bf;
+  cursor: pointer;
+}
+
+.btn-add:hover {
+  background-color: #026aa7;
+}

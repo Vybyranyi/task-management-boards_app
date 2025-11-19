@@ -1,0 +1,94 @@
+.board-container {
+  padding: 20px;
+}
+
+.error-banner {
+  background-color: #f44336;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.error-banner button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.board-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ccc;
+}
+
+.btn-back {
+  padding: 8px 16px;
+  background-color: #666;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-back:hover {
+  background-color: #555;
+}
+
+.board-title-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.board-title {
+  margin: 0;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.board-title:hover {
+  background-color: #f0f0f0;
+}
+
+.board-name-input {
+  font-size: 24px;
+  padding: 5px;
+  border: 2px solid #0079bf;
+}
+
+.board-id {
+  font-size: 14px;
+  color: #666;
+  background-color: #f0f0f0;
+  padding: 4px 8px;
+}
+
+.btn-delete-board {
+  padding: 8px 16px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-delete-board:hover {
+  background-color: #da190b;
+}
+
+.loading {
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.board-columns {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+}

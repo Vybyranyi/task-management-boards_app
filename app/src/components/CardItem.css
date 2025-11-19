@@ -1,0 +1,93 @@
+.card-item {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: move;
+}
+
+.card-item:hover {
+  border-color: #999;
+}
+
+.card-item.editing {
+  cursor: default;
+}
+
+.card-title {
+  margin: 0 0 5px 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.card-description {
+  margin: 0 0 10px 0;
+  font-size: 13px;
+  color: #666;
+}
+
+.card-buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.btn-edit,
+.btn-delete {
+  padding: 4px 8px;
+  font-size: 12px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  background: white;
+}
+
+.btn-edit:hover {
+  background: #f0f0f0;
+}
+
+.btn-delete:hover {
+  background: #ffe0e0;
+}
+
+.card-input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #ddd;
+}
+
+.card-textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #ddd;
+  font-family: inherit;
+}
+
+.card-actions {
+  display: flex;
+  gap: 5px;
+}
+
+.btn-save {
+  padding: 5px 10px;
+  border: 1px solid #4CAF50;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-save:hover {
+  background-color: #45a049;
+}
+
+.btn-cancel {
+  padding: 5px 10px;
+  border: 1px solid #f44336;
+  background-color: #f44336;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-cancel:hover {
+  background-color: #da190b;
+}

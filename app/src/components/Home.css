@@ -1,0 +1,92 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #667eea, #764ba2);
+  padding: 20px;
+}
+
+.home-content {
+  background: white;
+  padding: 40px;
+  max-width: 600px;
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+.home-content h1 {
+  margin: 0 0 30px 0;
+  font-size: 28px;
+  text-align: center;
+}
+
+.error-message {
+  background-color: #f44336;
+  color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.error-message button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.section h2 {
+  margin: 0 0 15px 0;
+  font-size: 20px;
+}
+
+.section form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #0079bf;
+}
+
+.btn-primary:hover {
+  background-color: #026aa7;
+}
+
+.btn-secondary {
+  background-color: #5e6c84;
+}
+
+.btn-secondary:hover {
+  background-color: #505f79;
+}
+
+.divider {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #666;
+}
