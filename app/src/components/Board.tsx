@@ -26,6 +26,10 @@ export default function Board() {
   };
 
   const handleDragStart = (e: React.DragEvent, card: Card) => {
+    if (e.dataTransfer) {
+      e.dataTransfer.setData('text/plain', card._id);
+      e.dataTransfer.effectAllowed = 'move';
+    }
     setDraggedCard(card);
   };
 
